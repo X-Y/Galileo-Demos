@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    /* text-align: center; */
+	font-family:"TyponineSans Regular 18", "Lucida Grande", Lucida, Verdana, sans-serif;
+
+}
+h1{
+	margin:0;
+	padding:30px 0;
+	background-color:#00979C;
+	font-weight:normal;
+    color:white;
+	text-align: center;
+}
+ul{
+    list-style: none;
+    margin: 30px 0;
+    padding: 0;
+    background-color: #FAFAE4;
+    border: 1px solid #DADAC4;
+    /* text-align: center; */
+    border-radius: 5px;
+}
+
+ul a {
+    position: relative;
+    padding: 20px 20px 20px 40px;
+    display: block;
+    border-bottom: 1px solid DADAC4;
+    text-decoration: none;
+    color: #333;
+    font-family: sans-serif;
+}
+body > ul > li:last-child>a {
+    border-bottom: 0;
+}
+ul a:before {
+    left: 15px;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 18px solid #9A9A90;
+    border-bottom: 10px solid transparent;
+}
+.content{
+	margin:10px;
+}
+.musician-avatar{
+	width: 100px;
+	margin:auto;
+	display:block;
+}
+.arduino-link{
+	display: block;
+	color:#e34c00;
+	margin:30px 0;
+	font-weight:bold;
+	text-align:center;
+}
